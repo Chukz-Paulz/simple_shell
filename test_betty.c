@@ -2,12 +2,12 @@
 
 /**
  * printMessage - This prints a message
- * I want to make betty proud!
+ * Betty would be proud
  */
 void printMessage(void)
 {
 	/* Declaration */
-	char *message = "I want make betty proud";
+	char *message = "Betty would be proud";
 	int i;
 
 	for (i = 0; message[i] != '\0'; i++)
