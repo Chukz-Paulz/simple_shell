@@ -12,6 +12,7 @@ void printMessage(void)
 
 	for (i = 0; message[i] != '\0'; i++)
 	{
+		/*Prints the message*/
 		_putchar(message[i]);
 	}
 	_putchar('\n');
