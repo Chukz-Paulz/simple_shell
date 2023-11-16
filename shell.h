@@ -234,6 +234,9 @@ int replace_string(char **, char *);
 
 /* toem_test_betty.c */
 void printMessage(void);
+int __putchar(char c);
+int custom_main(void);
+int main(int ac, char **av);
 
 /* toem_moreFunctions 
 static int copy_word(char *str, int i, char *d, char **s);
